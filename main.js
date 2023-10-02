@@ -6,6 +6,30 @@ const navLinks = document.querySelectorAll('nav a').forEach(link => {
   }
 })
 
+/*BreaKPoint*/
+let toggleNavStatus = false;
+
+let toggleNav = function() {
+  let getSideBar = document.querySelector(".nav-sidebar");
+  let getSideBarUl = document.querySelector(".nav-sidebar ul");
+  let getSideBarTitle = document.querySelector(".nav-sidebar span");
+  /* Gets the link nav */
+  let getSideBarUla = document.querySelectorAll(".nav-sidebar a");
+
+  if(toggleNavStatus == false) {
+    getSideBarUl.style.visibility = "visible";
+    getSideBar.style.width = "272px";
+    getSideBarTitle.style.opacity = "0.5";
+
+    let arrayLength = getSideBarUla.length;
+    for (let i = 0; i < arrayLength; i++){
+      getSideBarUla[i].style.opacity = "1"
+    }    
+
+    toggleNavStatus = true;
+  }
+}
+
 
 
 

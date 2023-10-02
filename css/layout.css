@@ -96,15 +96,13 @@ main p {
   color: white;
   font-size: 20px;
   white-space: nowrap;
+  opacity: 0;
 
 }
 
 .nav-sidebar ul li a:hover {
-  background-color: azure;
+  background-color: rgb(33, 223, 59);
 }
-  
-
-
 
 .btn-toggle-nav {
   width: 60px;
