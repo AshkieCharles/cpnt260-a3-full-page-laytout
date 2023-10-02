@@ -42,7 +42,6 @@ main p {
 .nav-main li {
   list-style: none;
   line-height: 60px;
-
 }
 
 .nav-main li a {
@@ -54,6 +53,13 @@ main p {
   color: hsla(126, 100%, 85%, 1);
   font-size: 22px;
 }
+
+.nav-main li a:hover {
+  background-color: hsla(126, 100%, 85%, 1);
+  color: black;
+
+}
+
 
 
 .nav-sidebar {
@@ -131,4 +137,10 @@ a:is(:link, :active, :visited).active {
   color: black;
   text-decoration: underline;
   color: hsla(126, 100%, 85%, 1);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
 }
