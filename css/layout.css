@@ -7,6 +7,10 @@ p {
   padding: 2rem;
 }
 
+main {
+  margin-left: 2rem;
+}
+
 .banner-image {
   background-image: url(../images/hari-kari.png);
   height: 100vh;
