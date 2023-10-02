@@ -7,7 +7,7 @@ p {
   padding: 2rem;
 }
 
-main {
+main p {
   margin-left: 2rem;
 }
 
@@ -105,7 +105,7 @@ main {
   width: 60px;
   height: 100%;
   background-color: green;
-  background-image: url(/images/menu.png);
+  background-image: url(../images/menu.png);
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: center;
@@ -117,11 +117,12 @@ main {
 }
 
 .logo {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   color: aliceblue;
   padding-left: 20vh;
   font-size: 3rem;
+  float: right;
 }
 
 
