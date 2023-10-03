@@ -180,6 +180,10 @@ footer {
   .logo {
     left: 38vw;
   }
+
+  p {
+    padding-left: 4rem;
+  }
   
 }
 
