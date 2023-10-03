@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 
 * {
@@ -25,9 +26,23 @@ h2 {
 
 p {
   max-width: 40ch;
+  font-family: 'Playfair Display', serif;
+
 }
 
 .page-title{
   font-size: 5rem;
 }
 
+.about-banner .info h1 {
+  font-size: 3rem;
+}
+
+.about-banner .info h2 {
+  font-size: 1.2rem;
+}
+
+
+.about-banner .info p {
+  font-size: 20px;
+}

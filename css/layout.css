@@ -32,18 +32,6 @@ main p {
   background-position: center;
 }
 
-.about-banner {
-  max-width: 25ch;
-  background-color: hsl(0, 0%, 3%);
-  color: white;
-  padding: 2rem;
-  border-radius: 1rem;
-  margin: auto;
-  /*So that the box doesn't touch the top*/
-  margin-top: 5rem;
-  text-align: center;
-  }
-
 
 .nav-main {
   top: 0;
@@ -228,3 +216,5 @@ footer {
   clip-path: circle(20%);
   z-index: 10000;
 }
+
+
