@@ -30,6 +30,7 @@ main p {
   margin: auto;
   /*So that the box doesn't touch the top*/
   margin-top: 5rem;
+  text-align: center;
   }
 
 
