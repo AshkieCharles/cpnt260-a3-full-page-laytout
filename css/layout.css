@@ -45,16 +45,13 @@ main p {
   position: fixed;
 }
 
-.test{
-  padding-right: 5rem;
-}
-
 
 .nav-main ul {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
   height: auto;
+  margin-left: 0;
 }
 
 
@@ -142,11 +139,12 @@ main p {
 
 .logo {
   display: flex;
+  position: absolute;
   justify-content: right;
-  float: right;
   color: rgb(255, 221, 0);
   font-size: 3rem;
   padding-right: 1rem;
+  left: 43vw;
 }
 
 a:is(:link, :active, :visited).active {
@@ -162,7 +160,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 950px) {
   .btn-toggle-nav {
     visibility: visible;
   }
@@ -175,8 +173,8 @@ footer {
     visibility:visible ;
   }
 
+  .logo {
+    left: 40vw;
+  }
   
 }
-
-/*Breakpoint*/
-
