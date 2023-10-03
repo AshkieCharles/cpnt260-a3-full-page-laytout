@@ -21,6 +21,18 @@ main p {
   background-position: center;
 }
 
+.about-banner {
+  max-width: 25ch;
+  background-color: hsl(0, 0%, 3%);
+  color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: auto;
+  /*So that the box doesn't touch the top*/
+  margin-top: 5rem;
+  }
+
+
 .nav-main {
   top: 0;
   width: 100%;
@@ -36,7 +48,7 @@ main p {
 .nav-main ul {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 15px;
+  padding-left: clamp(15rem,20rem,25rem);
 }
 
 .nav-main li {
@@ -71,15 +83,14 @@ main p {
   padding: 0 5px;
   background-color: black;
   z-index: 1000;
+  transition: 0.4s ease-in-out;
+  visibility: hidden;
 }
 
 .nav-sidebar ul {
   padding-top: 15px;
   overflow: hidden;
   visibility: hidden;
-
-
-
 }
 
 .nav-sidebar ul li {
@@ -97,6 +108,7 @@ main p {
   font-size: 20px;
   white-space: nowrap;
   opacity: 0;
+  transition: 0.4s ease-in-out;
 
 }
 
@@ -114,6 +126,7 @@ main p {
   background-size: 40%;
   background-position: center;
   cursor: pointer;
+  visibility: hidden;
 }
 
 .btn-toggle-nav:hover{
@@ -139,4 +152,21 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
+}
+
+
+@media only screen and (max-width: 850px) {
+  .btn-toggle-nav {
+    visibility: visible;
+  }
+
+  .nav-main ul li a{
+    visibility: hidden;
+  }
+
+  .nav-sidebar {
+    visibility:visible ;
+  }
+
+  
 }
