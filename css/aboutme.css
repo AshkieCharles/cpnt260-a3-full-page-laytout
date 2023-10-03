@@ -8,5 +8,18 @@ img{
   /*object-fit is contained as to prevent distortions of the image*/
   object-fit: contain;
   clip-path: circle(20%);
-  
+  z-index: 10000;
+}
+
+p {
+  background-color: aliceblue;
+  vertical-align: middle;
+  text-align: center;
+  align-self: center;
+  border-radius: 12px;
+}
+
+.content {
+  margin: auto;
+  padding-left: 20rem;
 }

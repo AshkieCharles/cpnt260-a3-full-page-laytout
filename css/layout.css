@@ -9,12 +9,6 @@ body {
   padding: auto;
 }
 
-.about-image {
-  clip-path: circle(40%);
-}
-
-
-
 
 h2 {
   text-align: center;
@@ -210,3 +204,8 @@ footer {
 }
 
 
+/*Breakpoint*/
+.content-index {
+  display: flex;
+  justify-items: center;
+}
