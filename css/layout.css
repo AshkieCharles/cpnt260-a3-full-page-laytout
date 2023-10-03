@@ -2,6 +2,9 @@ body {
   background-color: turquoise;
 }
 
+h2 {
+  text-align: center;
+}
 
 p {
   padding: 2rem;
@@ -157,6 +160,7 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
+  position: relative;
 }
 
 
