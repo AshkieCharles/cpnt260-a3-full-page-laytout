@@ -5,10 +5,16 @@ body {
 
 
 .about-h {
-  margin-top: 20vh;
+  margin-top: 10vh;
   padding: auto;
-
 }
+
+.about-image {
+  clip-path: circle(40%);
+}
+
+
+
 
 h2 {
   text-align: center;
