@@ -204,10 +204,3 @@ footer {
 }
 
 
-
-.soundcloud {
-  display: inline-flex;
-  z-index: 1000;
-  padding: auto;
-  float: right;
-}
