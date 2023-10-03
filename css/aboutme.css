@@ -20,6 +20,8 @@ p {
 }
 
 .content {
-  margin: auto;
+  display: inline-block;
+  text-align: center;
   padding-left: 20rem;
+
 }
