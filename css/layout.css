@@ -3,6 +3,13 @@ body {
   min-height: 100vh;
 }
 
+
+.about-h {
+  margin-top: 20vh;
+  padding: auto;
+
+}
+
 h2 {
   text-align: center;
 }
@@ -145,7 +152,7 @@ main p {
   display: flex;
   position: absolute;
   justify-content: right;
-  color: rgb(255, 221, 0);
+  color: hsla(126, 100%, 85%, 1);
   font-size: 3rem;
   padding-right: 1rem;
   left: 43vw;
