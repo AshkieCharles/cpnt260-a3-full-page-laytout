@@ -1,5 +1,6 @@
 body {
   background-color: turquoise;
+  min-height: 100vh;
 }
 
 h2 {
@@ -160,7 +161,9 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
-  position: relative;
+  margin-top: auto;
+  position: sticky;
+  top: 100%; 
 }
 
 
@@ -191,4 +194,13 @@ footer {
   .logo {
     left: 35vw;
   }
+}
+
+
+
+.soundcloud {
+  display: inline-flex;
+  z-index: 1000;
+  padding: auto;
+  float: right;
 }
