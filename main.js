@@ -6,7 +6,7 @@ const navLinks = document.querySelectorAll('nav a').forEach(link => {
   }
 })
 
-/*BreaKPoint*/
+/*Sidebarmenu*/
 let toggleNavStatus = false;
 
 let toggleNav = function() {
