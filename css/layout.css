@@ -48,7 +48,8 @@ main p {
 .nav-main ul {
   display: flex;
   flex-wrap: wrap;
-  padding-left: clamp(15rem,20rem,25rem);
+  margin: auto;
+  height: auto;
 }
 
 .nav-main li {
