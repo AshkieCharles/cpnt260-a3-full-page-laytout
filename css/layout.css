@@ -1,7 +1,18 @@
 body {
   background-color: turquoise;
+  min-height: 100vh;
 }
 
+
+.about-h {
+  margin-top: 10vh;
+  padding: auto;
+}
+
+
+h2 {
+  text-align: center;
+}
 
 p {
   padding: 2rem;
@@ -13,7 +24,7 @@ main p {
 
 .banner-image {
   background-image: url(../images/hari-kari.png);
-  height: 100vh;
+  height: 75vh;
   background-repeat: no-repeat;
   overflow: hidden;
   background-size: cover;
@@ -30,6 +41,7 @@ main p {
   margin: auto;
   /*So that the box doesn't touch the top*/
   margin-top: 5rem;
+  text-align: center;
   }
 
 
@@ -50,7 +62,9 @@ main p {
   flex-wrap: wrap;
   margin: auto;
   height: auto;
+  margin-left: 0;
 }
+
 
 .nav-main li {
   list-style: none;
@@ -135,12 +149,13 @@ main p {
 }
 
 .logo {
-  display: inline-flex;
-  flex-wrap: wrap;
-  color: aliceblue;
-  padding-left: 20vh;
+  display: flex;
+  position: absolute;
+  justify-content: right;
+  color: hsla(126, 100%, 85%, 1);
   font-size: 3rem;
-  float: right;
+  padding-right: 1rem;
+  left: 43vw;
 }
 
 a:is(:link, :active, :visited).active {
@@ -153,10 +168,13 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
+  margin-top: auto;
+  position: sticky;
+  top: 100%; 
 }
 
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 950px) {
   .btn-toggle-nav {
     visibility: visible;
   }
@@ -169,5 +187,44 @@ footer {
     visibility:visible ;
   }
 
+  .logo {
+    left: 38vw;
+  }
+
+  p {
+    padding-left: 4rem;
+  }
   
+}
+
+@media only screen and (max-width: 635px) {
+  .logo {
+    left: 35vw;
+  }
+}
+
+
+/*Breakpoint*/
+.content-index {
+  display: inline-block;
+  text-align: center;
+}
+
+.main-index {
+  margin: 0 auto;
+  float: none;
+
+}
+
+
+.pfp {
+  display: block;
+  width: 100%;
+  height: 20rem;
+  margin-top: 1ch;
+  
+  /*object-fit is contained as to prevent distortions of the image*/
+  object-fit: contain;
+  clip-path: circle(20%);
+  z-index: 10000;
 }
