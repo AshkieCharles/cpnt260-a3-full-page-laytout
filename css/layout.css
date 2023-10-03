@@ -13,7 +13,7 @@ main p {
 
 .banner-image {
   background-image: url(../images/hari-kari.png);
-  height: 100vh;
+  height: 75vh;
   background-repeat: no-repeat;
   overflow: hidden;
   background-size: cover;
@@ -45,6 +45,10 @@ main p {
   position: fixed;
 }
 
+.test{
+  padding-right: 5rem;
+}
+
 
 .nav-main ul {
   display: flex;
@@ -52,6 +56,7 @@ main p {
   margin: auto;
   height: auto;
 }
+
 
 .nav-main li {
   list-style: none;
@@ -136,12 +141,12 @@ main p {
 }
 
 .logo {
-  display: inline-flex;
-  flex-wrap: wrap;
-  color: aliceblue;
-  padding-left: 20vh;
-  font-size: 3rem;
+  display: flex;
+  justify-content: right;
   float: right;
+  color: rgb(255, 221, 0);
+  font-size: 3rem;
+  padding-right: 1rem;
 }
 
 a:is(:link, :active, :visited).active {
@@ -172,3 +177,6 @@ footer {
 
   
 }
+
+/*Breakpoint*/
+
