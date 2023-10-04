@@ -1,9 +1,11 @@
 # cpnt260-a3-full-page-laytout
-##Course title: CPNT 260
+## Course title: 
+CPNT 260
 Web Page Construction Fundamentals
-##Assignment name: Assignment 4 - Full-page Layout
-##Author name: Ashkie Esperanza
-##GH Pages site: https://ashkiecharles.github.io/cpnt260-a3-full-page-laytout/
+## Assignment name: Assignment 4 - Full-page Layout
+## Author name: Ashkie Esperanza
+## GH Pages site:
+https://ashkiecharles.github.io/cpnt260-a3-full-page-laytout/
 
 
 
