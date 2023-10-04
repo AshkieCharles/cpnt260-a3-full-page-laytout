@@ -51,3 +51,7 @@ p {
 .main-index {
   font-size: 20px;
 }
+
+.info h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
